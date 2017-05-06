@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: FrontDoorGCalDevise_production
-  username: FrontDoorGCalDevise
+  # username: FrontDoorGCalDevise
+  username: postgres
   password: <%= ENV['FRONTDOORGCALDEVISE_DATABASE_PASSWORD'] %>
